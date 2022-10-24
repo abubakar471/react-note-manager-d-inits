@@ -1,0 +1,21 @@
+.notFound {
+    width: 50%;
+    margin: 40px auto;
+    color: white;
+}
+
+
+.notFoundHomeBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notFoundHomeBtn button {
+    color: white;
+    background-color: rgb(23, 202, 113);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

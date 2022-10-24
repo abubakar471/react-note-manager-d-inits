@@ -1,0 +1,32 @@
+.timeBar {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+
+    background: -webkit-linear-gradient(360deg, #FD6F46 10%, #FB9832 360%);
+    /* Chrome 10+, Saf5.1+ */
+    background: -moz-linear-gradient(360deg, #FD6F46 10%, #FB9832 360%);
+    /* FF3.6+ */
+    background: linear-gradient(360deg, #FD6F46 10%, #FB9832 360%);
+}
+
+.time {
+    font-size: 30px;
+}
+
+.time span {
+    display: flex;
+    align-items: center;
+}
+
+.timeIcon {
+    font-size: 60px;
+    margin-right: 10px;
+}

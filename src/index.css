@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: -webkit-linear-gradient(360deg, #FD6F46 10%, #FB9832 360%);
+  /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(360deg, #FD6F46 10%, #FB9832 360%);
+  /* FF3.6+ */
+  background: linear-gradient(360deg, #FD6F46 10%, #FB9832 360%);
+  min-height: 100vh;
+
+}
+
+body::selection {
+  background-color: #FD6F46;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

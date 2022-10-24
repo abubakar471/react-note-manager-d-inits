@@ -1,0 +1,27 @@
+.menuIcon {
+    font-size: 20px;
+}
+
+.sideBarLinks {
+
+    white-space: pre-line;
+}
+
+.sideBarLink {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    white-space: pre-line;
+}
+
+.sideBarLink span {
+    margin-left: 10px;
+}
+
+
+.sideBarBox {
+    position: relative;
+    top: 120px;
+}

@@ -1,0 +1,84 @@
+.toDoCard {
+    margin: 20px auto;
+    background-color: #fff;
+    border: transparent;
+    border-radius: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.toDoLink {
+    text-decoration: none;
+    color: black;
+}
+
+.options {
+    float: right;
+    margin-right: 20px;
+    padding: 0 10px;
+}
+
+.editOption {
+    margin: 0 5px;
+    color: green;
+    cursor: pointer;
+}
+
+.deleteOption {
+    margin: 0 5px;
+    color: red;
+    cursor: pointer;
+}
+
+.date {
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 16px;
+}
+
+.titleAndDate {
+    width: 100%;
+}
+
+.formGoBackIcon {
+    cursor: pointer;
+    border: none;
+}
+
+.pinIcon {
+    cursor: pointer;
+}
+
+.archiveIcon {
+    cursor: pointer;
+}
+
+.editNoteModal {
+    width: 400px;
+}
+
+.editNoteModal {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.editNoteModalBox {
+    width: 400px;
+    word-break: break-all;
+}
+
+@media (max-width : 700px) {
+    .editNoteModal {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .editNoteModalBox {
+        width: 300px;
+    }
+}

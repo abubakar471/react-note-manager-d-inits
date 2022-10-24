@@ -1,0 +1,58 @@
+.toDoDetailedCard {
+    width: 50%;
+    margin: 20px auto;
+    border: transparent;
+    border-radius: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: white;
+}
+
+.description {
+    white-space: pre-line;
+}
+
+.title::selection,
+.description::selection,
+.date::selection {
+    background-color: #FD6F46;
+    color: white;
+}
+
+.goBackIconContainer {
+    width: 50%;
+    margin: 20px auto;
+    border: transparent;
+}
+
+.goBackIcon {
+    color: white;
+    cursor: pointer;
+}
+
+.formGoBackIcon {
+    cursor: pointer;
+    border: none;
+}
+
+@media (max-width : 700px) {
+    .toDoDetailedCard {
+        width: 70%;
+        margin: 20px auto;
+        border: transparent;
+        border-radius: 2rem;
+        padding: 20px;
+        border-radius: 10px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        background-color: white;
+    }
+
+    .goBackIconContainer {
+        width: 70%;
+        margin: 20px auto;
+        border: transparent;
+    }
+}

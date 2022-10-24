@@ -1,0 +1,58 @@
+.createToDo {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    border: transparent;
+    border-radius: 2rem;
+    padding: 20px
+}
+
+.formControl {
+    display: flex;
+    flex-direction: column;
+}
+
+.formControl label {
+    opacity: 0.7;
+}
+
+.formControl input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #555;
+    outline: none;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+.formControl input:focus {
+    outline: none;
+}
+
+.createBtn {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(91, 238, 5);
+    cursor: pointer;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.createBtn:hover {
+    background-color: black;
+    color: rgb(91, 238, 5);
+}
+
+.createBtn:focus {
+    outline: none;
+}
+
+@media (max-width : 700px) {
+    .createToDo {
+        width: 80%;
+
+    }
+}
