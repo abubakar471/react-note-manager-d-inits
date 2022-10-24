@@ -27,7 +27,6 @@ const MenuBar = () => {
         setState({ ...state, [anchor]: open });
     };
     let pinnedNotes = <><Link to="/pinnedNotes" className="sideBarLink"><PushPinIcon /><span>Pinned Notes</span><br /></Link><br /></>;
-    let breakLine = <><br /></>;
     let archive = <><Link to="/archive" className="sideBarLink"><ArchiveIcon /><span>Archive</span></Link><br /></>;
     let sideBarItems = [pinnedNotes, archive];
     const list = (anchor) => (
