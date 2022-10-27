@@ -120,7 +120,7 @@ const ToDoDetailedCard = () => {
         const filteredToDoList = archiveList.filter((toDo) => toDo.id !== id);
         setArchive(!archive);
         setArchiveList([...filteredToDoList]);
-        setToDoList([toDoToUnarchive, ...filteredToDoList])
+        setToDoList([toDoToUnarchive, ...toDoList])
         alert('Note Unarchived')
         navigate("/");
     }
