@@ -58,7 +58,7 @@ const ToDoCard = ({ id, title, description, date, pinnedItem, archiveItem, handl
         const filteredToDoList = archiveList.filter((toDo) => toDo.id !== id);
         setArchive(!archive);
         setArchiveList([...filteredToDoList]);
-        setToDoList([toDoToUnarchive, ...filteredToDoList])
+        setToDoList([toDoToUnarchive, ...toDoList])
         navigate("/");
         alert("Note unarchived")
     }
